@@ -20,5 +20,5 @@ function calculate(operator) {
       result = 'Error: Invalid operator';
   }
 
-  document.getElementById('result').innerText = result;
+  document.getElementById('result').textContent = `Result: ${result}`;
 }
